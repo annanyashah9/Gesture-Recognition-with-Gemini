@@ -7,3 +7,5 @@ The features consist of real-time gesture tracking, gesture detection and classi
 My main responsibilities consisted of engineering the pipeline between the user's gestures and Google Gemini. I added a framework such that when a gesture is detected, it signals the program to get ready to capture the image, but incorporates a delay such that the image is only captured when no gesture is detected. From there, the image is sent to Gemini for analysis. When a comprehensive description is generated, it is printed to the console, allowing for the user to ask follow-up questions to further their understanding. 
 
 The intended effect of this project is to improve accessibility for visually impaired users, such that they can gain an understanding of their surroundings for obstacle avoidance and improve environmental navigation. 
+
+The main code can be accessed via 20_gesture.py
