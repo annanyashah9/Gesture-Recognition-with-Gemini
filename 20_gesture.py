@@ -19,7 +19,7 @@ from utils import CvFpsCalc
 from model import KeyPointClassifier
 from model import PointHistoryClassifier
 
-genai.configure(api_key="AIzaSyD6Y2Ww2AshhxcKY6OXUdiZVXZvfjoKg5Y")
+genai.configure(api_key="...")
 
 def get_args():
     parser = argparse.ArgumentParser()
